@@ -19,7 +19,7 @@ let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = 'Tacos & anything involving carbs';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-let pets = 1; 
+let pets = 2; 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 2;
 // 11 - Add two pets to your `pets` variable
@@ -45,8 +45,8 @@ else
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 if (pets < allowedPets){console.log('I can have more pets!');}
-else if (pets = allowedPets){console.log('I have enough pets');}
-else if (pets > allowedPets){console.log('Oh no I have too many pets!');}
+else if (pets == allowedPets){console.log('I have enough pets');}
+else if (pets > allowedPets){console.log('Oh no, I have too many pets!');}
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
